@@ -1,5 +1,5 @@
-const livros = require('./lista-de-arrays/listaLivros');
-const menorValor = require('./functions/menorValor');
+const livros = require('../lista-de-arrays/listaLivros');
+const menorValor = require('../functions/menorValor');
 
 for (let atual = 0; atual < livros.length - 1; atual++) {
   let menor = menorValor(livros, atual)

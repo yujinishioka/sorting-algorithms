@@ -1,5 +1,5 @@
-const livros = require('./lista-de-arrays/listaLivros');
-const troca = require('./functions/troca');
+const livros = require('../lista-de-arrays/listaLivros');
+const troca = require('../functions/troca');
 
 function insertionSort(lista) {
   for (let atual = 0; atual < lista.length; atual++) {
